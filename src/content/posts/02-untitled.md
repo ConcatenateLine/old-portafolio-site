@@ -12,4 +12,4 @@ isPublish: true
 A minimal portfolio with a blog part, built with Astro and Tailwindcss / Template by /MaeWolff 
 
 
-![Portafolio-capture](/public/portafolio-site.png "Portafolio")
+![Portafolio-capture](/portafolio-site/portafolio-site.png "Portafolio")

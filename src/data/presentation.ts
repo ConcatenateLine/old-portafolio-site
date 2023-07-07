@@ -29,7 +29,7 @@ const presentation: Presentation = {
     },
     {
       label: "Descargar CV",
-      link: "/public/Josue-Morales-Pascual.pdf",
+      link: "/portafolio-site/Josue-Morales-Pascual.pdf",
     },
   ],
 };

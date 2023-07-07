@@ -15,7 +15,7 @@ const posts = await getCollection("posts");
         posts.map((post) => (
           <a
             class="group flex flex-col gap-2 border-t border-neutral-700 py-4 transition-all hover:text-neutral-100"
-            href={`/posts/${post.slug}`}
+            href={`/portafolio-site/posts/${post.slug}`}
           >
             <div class="flex w-full items-center justify-between">
               <h2 class="text-lg">{post.data.title}</h2>
