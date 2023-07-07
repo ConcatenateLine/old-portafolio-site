@@ -1,9 +1,15 @@
 ---
-title: "Untitled"
-publishedAt: 2023-05-24
-description: "Lorem ipsum dolor sit amet consectetur et ultrices blandit neque ege"
-slug: "untitled"
+title: "El inicio"
+publishedAt: 2023-07-06
+description: "Creando portafolio con la ayuda de un template."
+image: "/public/portafolio-site.png"
+slug: "portafolio"
 isPublish: true
 ---
 
-## Hello World
+## Portafolio
+
+A minimal portfolio with a blog part, built with Astro and Tailwindcss / Template by /MaeWolff 
+
+
+![Portafolio-capture](/public/portafolio-site.png "Portafolio")

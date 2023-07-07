@@ -2,6 +2,7 @@
 title: "The Power Of React Hooks"
 publishedAt: 2023-05-24
 description: "Lorem ipsum dolor sit amet consectetur et ultrices blandit neque ege"
+image: "/public/opengraph-image.jpg"
 slug: "the-power-of-react-hooks"
 isPublish: true
 ---

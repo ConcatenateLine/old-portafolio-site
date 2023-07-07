@@ -1,12 +1,9 @@
-# 👨‍🚀 Astro - Portfolio Template
+# 👨‍🚀 Astro - Portfolio with Template
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+ [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-![Template](https://github.com/MaeWolff/astro-portfolio-template/blob/main/public/opengraph-image.jpg)
-
-This theme/template is designed and crafted by [me](https://www.maxencewolff.com).
-NB: Additional color themes can also be configured on the `src/data/theme.ts` file.
+![Template](https://github.com/ConcatenateLine/portafolio-site/blob/main/public/opengraph-image.jpg)
 
 ## 🥷 Usage
 

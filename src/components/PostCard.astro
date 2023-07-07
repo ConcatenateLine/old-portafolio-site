@@ -1,20 +1,41 @@
 ---
 import formatDate from "@/utils/formatDate";
+import { Img } from 'astro-imagetools/components';
 
 type Props = {
   title: string;
   publishedAt: Date;
   description: string;
   slug: string;
+  image: Any;
 };
 
-const { title, publishedAt, description, slug } = Astro.props;
+const { title, publishedAt, description, slug, image } = Astro.props;
 ---
 
 <a
   class="group flex max-w-sm cursor-pointer flex-col gap-2 rounded-md border border-neutral-700 p-4 transition-all duration-300 hover:-translate-y-2 hover:border-neutral-400"
   href={`/posts/${slug}`}
 >
+   <div
+                data-cropped="true"
+                data-pswp-width="3rem"
+                data-pswp-height="3rem"
+                class="group h-72 md:h-96 flex justify-end items-end bg-gray-100 overflow-hidden rounded-xl shadow-lg relative gallery-item hover:shadow-xl"
+              >
+                <div class="w-full h-full flex object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200 text-transparent">
+                  <Img
+                    src={image.href}
+                    alt={title}
+                  />
+                </div>
+
+                <div class="bg-gradient-to-t from-black via-transparent to-transparent opacity-20 absolute inset-0 pointer-events-none group-hover:opacity-0 transition duration-200" />
+
+                <span class="inline-block text-gray-200 text-xs md:text-sm border border-gray-500 rounded-lg backdrop-blur relative px-2 md:px-3 py-1 mr-3 mb-3 group-hover:opacity-0 transition duration-200">
+                  {title}
+                </span>
+    </div>
   <div
     class="flex w-full flex-col justify-between gap-2 md:flex-row md:items-center"
   >

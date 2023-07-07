@@ -43,6 +43,7 @@ const posts = await getCollection("posts");
                   title={post.data.title}
                   description={post.data.description}
                   slug={post.slug}
+                  image={{href: post.data.image}}
                 />
               ))
         }
