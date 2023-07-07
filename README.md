@@ -3,7 +3,7 @@
  [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-![Template](https://github.com/ConcatenateLine/portafolio-site/blob/main/public/opengraph-image.jpg)
+![Template](https://github.com/ConcatenateLine/portafolio-site/blob/main/public/portafolio-site.png)
 
 ## 🥷 Usage
 
